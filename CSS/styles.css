@@ -18,7 +18,7 @@ html {
 
 body {
     background-color:white;
-    height:100vh;
+    height:100%;
     margin:0;
 }
 
@@ -207,12 +207,23 @@ h1, h2, h3, h4, h5, p {
     cursor:pointer;
 }
 
+.rollheader {
+    width:100%;
+    padding:2px;
+    color:white;
+    background:rgb(94, 174, 255);
+    border:none;
+    user-select:none;
+    transition:all 0.2s ease-in;
+    cursor:pointer;
+}
+
 .rollcontent {
     border-left:3px solid rgb(94, 174, 255);
 }
 
 .aboutdiv {
-    width:20vw;
+    max-width:365px;
     border: 3px solid rgb(94, 174, 255);
     float:right;
     margin:5px;
@@ -232,7 +243,7 @@ h1, h2, h3, h4, h5, p {
     display:flex;
     flex-direction: row;
     gap:3px;
-    height:10vw;
+    height:200px;
     width:100%;
 }
 
@@ -244,6 +255,7 @@ table {
     color:rgb(94, 174, 255);
     text-align: left;
     border-spacing:2px;
+    font-size:80%;
 }
 
 p {
@@ -252,4 +264,14 @@ p {
 
 li {
     color:rgb(94, 174, 255);
+}
+
+figure {
+    padding:5px;
+    border:3px solid rgb(94, 174, 255);
+    width:fit-content;
+}
+
+figcaption {
+    color:rgb(71, 163, 255);
 }
