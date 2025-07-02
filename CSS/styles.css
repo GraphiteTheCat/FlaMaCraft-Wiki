@@ -276,3 +276,7 @@ figure {
 figcaption {
     color:rgb(71, 163, 255);
 }
+
+a {
+    text-decoration:none;
+}
