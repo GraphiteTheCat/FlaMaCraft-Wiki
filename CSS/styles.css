@@ -113,10 +113,11 @@ body {
     display:flex;
     flex-direction:column;
     width:400px;
-    max-width:100%;
+    max-width:80%;
     height:fit-content;
     border-radius:10px;
     background:rgb(10, 10, 10);
+    justify-content:center;
 }
 
 .contact > .contactlist > table {
