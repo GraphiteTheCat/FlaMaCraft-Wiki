@@ -253,6 +253,38 @@ h1, h2, h3, h4, h5, p {
     height:97%;
 }
 
+.s1marker {
+    border-left:3px solid red;
+}
+
+.s2marker {
+    border-left:3px solid aquamarine;
+}
+
+.s3marker {
+    border-left:3px solid yellow;
+}
+
+.s4marker {
+    border-left:3px solid orange;
+}
+
+.s5marker {
+    border-left:3px solid blue;
+}
+
+.s6marker {
+    border-left:3px solid gray;
+}
+
+.s7marker {
+    border-left:3px solid black;
+}
+
+.s8marker {
+    border-left:3px solid brown;
+}
+
 table {
     color:rgb(94, 174, 255);
     text-align: left;
