@@ -1,5 +1,12 @@
 function load() {
     document.getElementById("Title").innerHTML = document.title;
+
+    const mobilewidth = 600;
+    if (screen.width <= mobilewidth) {
+        document.getElementsByClassName("aboutdiv")[0].style.float = "none";
+        document.getElementsByClassName("aboutdiv")[0].style.margin = "auto";
+        document.getElementsByClassName("aboutdiv")[0].style.marginTop = "5px";
+    }
 }
 
 function roll(par) {
