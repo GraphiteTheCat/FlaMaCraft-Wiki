@@ -6,6 +6,7 @@ function load() {
         document.getElementsByClassName("aboutdiv")[0].style.float = "none";
         document.getElementsByClassName("aboutdiv")[0].style.margin = "auto";
         document.getElementsByClassName("aboutdiv")[0].style.marginTop = "5px";
+        document.getElementById("Title").style.fontSize = "1em";
     }
 }
 
