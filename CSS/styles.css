@@ -298,6 +298,12 @@ h1, h2, h3, h4, h5, p {
     height:200px;
 }
 
+.partyindicator {
+    width:90%;
+    height:5px;
+    background-color:#4CFF71;
+}
+
 table {
     color:rgb(94, 174, 255);
     text-align: left;
@@ -324,5 +330,5 @@ figcaption {
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
