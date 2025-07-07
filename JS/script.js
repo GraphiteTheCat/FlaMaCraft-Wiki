@@ -3,10 +3,10 @@ function load() {
 
     const mobilewidth = 600;
     if (screen.width <= mobilewidth) {
+        document.getElementById("Title").style.fontSize = "1em";
         document.getElementsByClassName("aboutdiv")[0].style.float = "none";
         document.getElementsByClassName("aboutdiv")[0].style.margin = "auto";
         document.getElementsByClassName("aboutdiv")[0].style.marginTop = "5px";
-        document.getElementById("Title").style.fontSize = "1em";
     }
 }
 
